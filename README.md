@@ -2,6 +2,8 @@
 
 **Line of Sight** is an application designed to provide visual guidance and environmental context to visually-impaired people using advanced AI. The app integrates OpenStreetMap's Overpass API for local POI discovery, Google's Gemini API for real-time image analysis and conversational text generation, and Fish Audio's API for natural text-to-speech audio output.
 
+*Built at MadHacks, November 2025, by [Daksh Kasi](https://github.com/dakshkasi), [Arvind Marella](https://github.com/arvindm84), [Anandapadmanabhan GR](https://github.com/Ananda-001), and [Sreevatsa Tanikella](https://github.com/PotatoBl4z3).*
+
 ## Features
 
 *   **Real-time Object Detection**: Uses YOLOv8 to detect objects and identify potential hazards.
@@ -24,7 +26,7 @@ Before running the application, ensure you have the following installed:
 
 1.  **Clone the Repository**
     ```bash
-    git clone https://github.com/arvindm84/Line-of-Sight
+    git clone https://github.com/dakshkasi/Line-of-Sight
     cd Line-Of-Sight
     ```
 
@@ -70,3 +72,10 @@ Before running the application, ensure you have the following installed:
 *   **Start/Stop**: Use the "Start Guiding" button to begin the video streaming and receive audio guidance.
 *   **Safety**: The app will alert immediately if it detects hazards like cars or people in your path.
 *   **Context**: Every 30 seconds, the app describes your visual surroundings. Every minute, the app recommends nearby places to visit and explore.
+
+## Team
+
+- [Daksh Kasi](https://github.com/dakshkasi)
+- [Arvind Marella](https://github.com/arvindm84)
+- [Anandapadmanabhan GR](https://github.com/Ananda-001)
+- [Sreevatsa Tanikella](https://github.com/PotatoBl4z3)
